@@ -51,7 +51,7 @@ Mac OS (Tested with apple silicon):
 4. If you want to try and experiment with mysql on apple silicon, just add "platform: linux/x86_64" on top of line 4.
 ```
 
-![Docker Compose File ](https://user-images.githubusercontent.com/13710927/133921908-336436ac-3155-45b1-8580-9639e39cbf9a.png)
+
 
 
 
