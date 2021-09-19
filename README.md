@@ -49,8 +49,35 @@ Mac OS (Tested with apple silicon):
 2. For Mac os with Apple silicon Processor it is recommended to use MariaDB 10.5.8
 3. Just comment line 4 and uncomment line 5 to use MariaDB.
 4. If you want to try and experiment with mysql on apple silicon, just add "platform: linux/x86_64" on top of line 4.
-![screenshot](https://imgur.com/a/89GPZoT")
+![alt text](https://imgur.com/a/89GPZoT")
 ```
 
 
 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/naimbob95/mysql-mongo-redis-mailhog-dockerfile.git
+```
+
+Go to the project directory
+
+```bash
+  cd <project-directory
+```
+
+Initialize the container
+
+```bash
+  docker-compose up -d
+```
+
+It should be up and the docker desktop should be showing like this
+
+![alt text](https://user-images.githubusercontent.com/13710927/133921630-3b1897b8-cd54-41cb-be18-0022daa3a327.png")
+
+
+  
