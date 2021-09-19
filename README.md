@@ -2,6 +2,9 @@
 
 This is a docker-compose file for with Mysql,Mongodb,Redis and Mailhog for your local development.
 
+# Reminder
+Don't use this in your production server!!! This configuration targeted to local development only. I will be not responsible in any of your action using this file. Use this at your own risk!!!
+
 # Prerequisites
 
 Windows (Tested on Windows 10):
