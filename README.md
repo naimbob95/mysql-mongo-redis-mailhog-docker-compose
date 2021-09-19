@@ -77,7 +77,7 @@ Initialize the container
 
 It should be up and the docker desktop should be showing like this
 
-![alt text]("ss1.png")
+![alt text](https://user-images.githubusercontent.com/13710927/133921630-3b1897b8-cd54-41cb-be18-0022daa3a327.png)
 
 
   
