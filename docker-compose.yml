@@ -1,0 +1,42 @@
+version: "3"
+services:
+  mysql:
+    image: 'mysql:5.7'
+#    image: mariadb:10.5.8
+    ports:
+      - "3306:3306"
+    command: --max_allowed_packet=32505856 --sql_mode=""
+    volumes:
+      - mariadb:/var/lib/mysql
+    environment:
+      - "MYSQL_ROOT_PASSWORD=000000"
+    networks: 
+      - "default"
+  mailer:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+  redis:
+    image: redis:alpine
+    networks:
+      - "default"
+    expose:
+      - 6379
+  mongo:
+    image: mongo:4.1-bionic
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo:/data
+    environment:
+      - "MONGO_INITDB_ROOT_USERNAME=root"
+      - "MONGO_INITDB_ROOT_PASSWORD=000000"
+
+
+networks:
+  default:
+
+volumes:
+  mongodb2:
+  mariadb:
