@@ -64,4 +64,32 @@ It should be up and the docker desktop should be showing like this
 
 
 
-  
+
+# Mysql,MongoDB and Mailhog configurations
+
+MySQL/MariaDB
+
+```bash
+host:localhost
+port: 3306
+username : root
+password : 000000
+```
+
+MongoDB
+
+```bash
+host:localhost
+port: 27017
+username : root
+password : 000000
+```
+
+Mailhog
+```bash
+SMTP HOST : localhost
+SMTP PORT : 1025
+
+Web UI : http://localhost:8025
+
+```
